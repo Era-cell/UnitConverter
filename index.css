@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fromto {
+  width: 400px;
+  background-color: cornflowerblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.tf {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tf input {
+  height: 30px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+#fromUnit {
+  text-align: center;
+  font-weight: 600;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+#toUnit {
+  text-align: center;
+  font-weight: 600;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  position: relative;
+  left: 10px;
+}
+
+.calculate {
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(215, 43, 43);
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid rgb(58, 57, 57);
+}
+
+#calculate:hover {
+  background-color: aliceblue;
+  color: rgb(215, 43, 43);
+}
+
+.result {
+  margin-top: 1px;
+  background-color: cornflowerblue;
+  padding: 20px 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#OutputResult {
+  display: none;
+  flex-direction: column;
+}
